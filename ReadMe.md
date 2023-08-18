@@ -1,5 +1,6 @@
-Brief overview of the project's focus: Exploring car market trends through EDA.
+# Car Brand Model EDA
 
+Brief overview of the project's focus: Exploring car market trends through EDA.
 Importance of understanding factors influencing car prices based on brand, model, and other attributes.
 
 1. **Data Collection**:
