@@ -53,18 +53,18 @@ Importance of understanding factors influencing car prices based on brand, model
 
 ## Model mileage vs price details on the basis of seller type
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79a4a61b-e186-47ca-b620-2e9eb6e7e590/Untitled.png)
+<a href="https://ibb.co/pK7WTXP"><img src="https://i.ibb.co/yk9hCsR/4.png" alt="4" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>image hosting</a><br />
 
 ## Best Seller
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6d817ac-aa33-4cee-94da-41d77eb23c96/Untitled.png)
+<a href="https://ibb.co/xMTh3Ty"><img src="https://i.ibb.co/JzJnCJN/5.png" alt="5" border="0"></a>
 
 ## **Which seller has most new, used and recondiitoned car**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df636bb3-628f-4cf0-bc7b-f0d5705c40c7/Untitled.png)
+<a href="https://ibb.co/whyYxkw"><img src="https://i.ibb.co/N2x7Hvm/6.png" alt="6" border="0"></a>
 
 ## **Transmission and Body based Analysis**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce99d48c-9540-41c6-8052-2217ce44d3c4/Untitled.png)
+<a href="https://ibb.co/tcj9Q6M"><img src="https://i.ibb.co/ZK40Gr6/7.png" alt="7" border="0"></a>
 
 This Car Model Based EDA project aims to provide valuable insights into how different factors contribute to variations in car prices, focusing on brand, model, and related attributes.
