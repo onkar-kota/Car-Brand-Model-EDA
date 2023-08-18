@@ -23,7 +23,7 @@ Importance of understanding factors influencing car prices based on brand, model
     
     ## Price Based on Brand_Model
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b46e1bf0-12f9-4ce7-b564-b4b46e8127f2/Untitled.png)
+    <a href="https://ibb.co/T8H9Lvf"><img src="https://i.ibb.co/3N0gzr3/1.png" alt="1" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>free image hosting</a><br />
     
 
 1. **Body Type and Fuel**:
@@ -38,7 +38,7 @@ Importance of understanding factors influencing car prices based on brand, model
 
 ## **Price of Cars Brand Model**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5f8e3c3-3fa6-4a8e-99a6-1ff8ee0a419b/Untitled.png)
+<a href="https://ibb.co/Gth79xV"><img src="https://i.ibb.co/KL16D09/2.png" alt="2" border="0"></a>
 
 1. **Correlation Exploration**:
     - Calculating correlations between numeric features (price, year, etc.).
@@ -49,7 +49,7 @@ Importance of understanding factors influencing car prices based on brand, model
 
 ## Transmission in Each Condition
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0332fd9-d6e9-4391-84ee-6e530fac85bd/Untitled.png)
+<a href="https://ibb.co/wCZQvf9"><img src="https://i.ibb.co/FJkYPFS/3.png" alt="3" border="0"></a>
 
 ## Model mileage vs price details on the basis of seller type
 
