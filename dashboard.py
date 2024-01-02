@@ -9,12 +9,13 @@ from plotly.subplots import make_subplots
 import boto3
 import streamlit as st
 
+# ------------------ AWS Credentials ------------------ #
 
 s3 = boto3.resource(
     service_name = 's3',
     region_name = 'ap-south-1',
-    aws_access_key_id = AWS_ACCESS_KEY_ID,
-    aws_secret_access_key = AWS_SECRET_ACCESS_KEY
+    aws_access_key_id = st.secrets["aws"]["AWS_ACCESS_KEY_ID"],
+    aws_secret_access_key = st.secrets["aws"]["AWS_SECRET_ACCESS_KEY"]
 )
 obj = s3.Bucket('analyticss').Object('vehicle_data.csv').get()
 
