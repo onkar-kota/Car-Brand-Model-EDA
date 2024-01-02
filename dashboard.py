@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import timeit
-import files as f
+# import files as f
 import plotly.express as px
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
@@ -13,8 +13,8 @@ import streamlit as st
 s3 = boto3.resource(
     service_name = 's3',
     region_name = 'ap-south-1',
-    aws_access_key_id = f.AWS_ACCESS_KEY_ID,
-    aws_secret_access_key = f.AWS_SECRET_ACCESS_KEY
+    aws_access_key_id = AWS_ACCESS_KEY_ID,
+    aws_secret_access_key = AWS_SECRET_ACCESS_KEY
 )
 obj = s3.Bucket('analyticss').Object('vehicle_data.csv').get()
 
