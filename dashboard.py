@@ -149,7 +149,7 @@ t = TranModel('Automatic','Hatchback')
 
 
 
-# ------------------ Dashboard ------------------ #
+# ------------------ Dashboard building ------------------ #
 
 st.title('Car Brand Model :red[EDA] :bar_chart:')
 
