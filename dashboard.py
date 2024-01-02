@@ -1,15 +1,26 @@
 import pandas as pd
 import numpy as np
 import timeit
-
+import files as f
 import plotly.express as px
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-
+import boto3
 import streamlit as st
 
-data = pd.read_csv('D:/Coding Files/Coding Ninja/5. Projects/4. Car Brand model EDA/vehicle_data.csv')
+
+s3 = boto3.resource(
+    service_name = 's3',
+    region_name = 'ap-south-1',
+    aws_access_key_id = f.AWS_ACCESS_KEY_ID,
+    aws_secret_access_key = f.AWS_SECRET_ACCESS_KEY
+)
+obj = s3.Bucket('analyticss').Object('vehicle_data.csv').get()
+
+
+data = pd.read_csv(obj['Body'])
+# data = pd.read_csv('D:/Coding Files/Coding Ninja/5. Projects/4. Car Brand model EDA/vehicle_data.csv')
 data['Price'] = data['Price'].str.replace('Rs','')
 data['Price'] = data['Price'].apply(lambda x: float(str(x).replace(',','')))
 data['Capacity'] = data['Capacity'].str.replace('cc','')
@@ -139,9 +150,9 @@ t = TranModel('Automatic','Hatchback')
 
 # ------------------ Dashboard ------------------ #
 
-st.title('Car Brand Model :red[EDA]')
+st.title('Car Brand Model :red[EDA] :bar_chart:')
 
-tab1, tab2 = st.tabs(['Data','Analysis'])
+tab1, tab2 = st.tabs(['Data :gear:','Analysis :green_book:'])
 
 with tab1:
     st.header('Car Dataset')
